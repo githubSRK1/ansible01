@@ -1,6 +1,10 @@
 [mongodb]
 roboshop-us-dev-db-mongodb-01.devopsproject.cloud
 
+[mongodb:vars]
+MONGO_USERNAME=mongodbadmin
+MONGO_DB=categories
+
 [mysql]
 roboshop-us-dev-db-mysql-01.devopsproject.cloud
 roboshop-us-dev-db-mysql-02.devopsproject.cloud
