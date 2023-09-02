@@ -1,12 +1,15 @@
 - name: install package
-  hosts: localhost
+  hosts: mongod
   become: yes
   tasks: 
   - name: install package
-  ansible.builtin.yum:
-    name: "{{item}}"
-    state: installed
-  loop:
-  - nginx
-  - postman
-  
+    ansible.builtin.yum:
+      name: "{{item}}"
+      state: installed
+    loop:
+    - nginx
+    - postman
+    - cyrus-sasl-plain
+    - mailx
+
+
