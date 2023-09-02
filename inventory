@@ -1,31 +1,31 @@
 [mongodb]
 172.31.33.57
 
-;; roboshop-us-dev-db-mongodb-01.devopsproject.cloud
+;; ;; roboshop-us-dev-db-mongodb-01.devopsproject.cloud
 
-[mongodb:vars]
-MONGO_USERNAME=mongodbadmin
-MONGO_DB=categories
-;; NAME=Sivakumar-inventory
+;; [mongodb:vars]
+;; MONGO_USERNAME=mongodbadmin
+;; MONGO_DB=categories
+;; ;; NAME=Sivakumar-inventory
 
-[mysql]
-roboshop-us-dev-db-mysql-01.devopsproject.cloud
-roboshop-us-dev-db-mysql-02.devopsproject.cloud
+;; [mysql]
+;; roboshop-us-dev-db-mysql-01.devopsproject.cloud
+;; roboshop-us-dev-db-mysql-02.devopsproject.cloud
 
-[cart]
-roboshop-us-prod-app-cart-01.devopsproject.cloud
-roboshop-us-prod-app-cart-02.devopsproject.cloud
-roboshop-us-prod-app-cart-03.devopsproject.cloud
+;; [cart]
+;; roboshop-us-prod-app-cart-01.devopsproject.cloud
+;; roboshop-us-prod-app-cart-02.devopsproject.cloud
+;; roboshop-us-prod-app-cart-03.devopsproject.cloud
 
-[cart]
-roboshop-us-prod-app-user-01.devopsproject.cloud
-roboshop-us-prod-app-user-02.devopsproject.cloud
+;; [cart]
+;; roboshop-us-prod-app-user-01.devopsproject.cloud
+;; roboshop-us-prod-app-user-02.devopsproject.cloud
 
-[db:children]
-mongodb
-mysql
+;; [db:children]
+;; mongodb
+;; mysql
 
-[app:children]
+;; [app:children]
 
 
 
