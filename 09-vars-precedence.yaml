@@ -2,7 +2,7 @@
   hosts: mongodb
   vars:
     NAME: sivakumar-play
-    vars_prompt:
+  vars_prompt:
     - name: NAME
       prompt: Please enter Trainer name
       private: false
