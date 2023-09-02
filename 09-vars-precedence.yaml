@@ -2,9 +2,7 @@
   hosts: mongodb
   vars:
     NAME: sivakumar-play
-  vars_files:
-  - variables.yaml
-  vars_prompt:
+   vars_prompt:
   - name: NAME
     prompt: Please enter Trainer name
     private: false
@@ -16,3 +14,11 @@
 # 1. comman line variables        
 # 2. task level
 # 3. vars_files
+
+
+
+
+
+
+ # vars_files: - line 5
+  # - variables.yaml - line 6
